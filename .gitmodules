@@ -1,0 +1,3 @@
+[submodule "external/proves"]
+	path = external/proves
+	url = https://github.com/Open-Source-Space-Foundation/proves-core-reference
