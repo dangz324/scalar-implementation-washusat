@@ -4,22 +4,22 @@
 
 # downlink
 
-import "../../external/proves/lib/fprime/Svc/Ccsds/SpacePacketFramer/SpacePacketFramer.fpp"
-import "../../external/proves/lib/fprime/Svc/Ccsds/TmFramer/TmFramer.fpp"
+import "../../external/fprime/Svc/Ccsds/SpacePacketFramer/SpacePacketFramer.fpp"
+import "../../external/fprime/Svc/Ccsds/TmFramer/TmFramer.fpp"
 
 # uplink
 
-import "../../external/proves/lib/fprime/Svc/FrameAccumulator/FrameAccumulator.fpp"
-import "../../external/proves/lib/fprime/Svc/Ccsds/TcDeframer/TcDeframer.fpp"
+import "../../external/fprime/Svc/FrameAccumulator/FrameAccumulator.fpp"
+import "../../external/fprime/Svc/Ccsds/TcDeframer/TcDeframer.fpp"
 import "../../external/proves/PROVESFlightControllerReference/Components/Authenticate/Authenticate.fpp"
-import "../../external/proves/lib/fprime/Svc/Ccsds/SpacePacketDeframer/SpacePacketDeframer.fpp"
+import "../../external/fprime/Svc/Ccsds/SpacePacketDeframer/SpacePacketDeframer.fpp"
 import "../../external/proves/PROVESFlightControllerReference/Components/AuthenticationRouter/AuthenticationRouter.fpp"
 
 # dependencies for current imports
 
-import "../../external/proves/lib/fprime/Svc/Interfaces/Framer.fpp"
-import "../../external/proves/lib/fprime/Svc/Interfaces/Deframer.fpp"
-import "../../external/proves/lib/fprime/Fw/Com/Com.fpp"
+import "../../external/fprime/Svc/Interfaces/Framer.fpp"
+import "../../external/fprime/Svc/Interfaces/Deframer.fpp"
+import "../../external/fprime/Fw/Com/Com.fpp"
 
 topology ScalarComms {
 
